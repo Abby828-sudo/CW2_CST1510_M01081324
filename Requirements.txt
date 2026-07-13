@@ -1,0 +1,6 @@
+#library required
+bcrypt
+sqlite3
+pandas
+streamlit
+groq
