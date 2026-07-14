@@ -3,6 +3,10 @@ import pandas as pd
 from app_model.it_tickets import get_all_it_tickets
 from app_model.db import get_conn
 from groq import Groq
+
+#personal api key is to be added into the variable
+client = Groq(api_key="ADD_API_KEY")
+
 st.set_page_config(
     page_title="Home Page",
     page_icon="🏠",
